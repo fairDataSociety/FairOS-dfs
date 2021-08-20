@@ -46,6 +46,11 @@ func (d *DfsAPI) CreatePod(podName, passPhrase, sessionId string) (*pod.Info, er
 		return nil, err
 	}
 
+	err = ui.GetPod().SyncPod(podName)
+	if err != nil {
+		return nil, err
+	}
+
 	// Add podName in the login user session
 	ui.AddPodName(podName, pi)
 	return pi, nil
