@@ -1,6 +1,7 @@
 module github.com/fairdatasociety/fairOS-dfs
 
 go 1.22.0
+toolchain go1.23.4
 
 require (
 	github.com/asabya/swarm-act v0.0.0-20241022090815-9b494c0051de
@@ -9,7 +10,7 @@ require (
 	github.com/c-bata/go-prompt v0.2.6
 	github.com/dustin/go-humanize v1.0.1
 	github.com/ethereum/go-ethereum v1.14.7
-	github.com/ethersphere/bee/v2 v2.2.0
+	github.com/ethersphere/bee/v2 v2.3.2
 	github.com/ethersphere/bmt v0.1.4
 	github.com/golang-jwt/jwt/v5 v5.2.1
 	github.com/golang/snappy v0.0.5-0.20220116011046-fa5810519dcb
@@ -58,7 +59,7 @@ require (
 	github.com/ethereum/c-kzg-4844 v1.0.0 // indirect
 	github.com/ethereum/go-verkle v0.1.1-0.20240829091221-dffa7562dbe9 // indirect
 	github.com/ethersphere/go-price-oracle-abi v0.2.0 // indirect
-	github.com/ethersphere/go-storage-incentives-abi v0.9.1 // indirect
+	github.com/ethersphere/go-storage-incentives-abi v0.9.2 // indirect
 	github.com/ethersphere/go-sw3-abi v0.6.5 // indirect
 	github.com/ethersphere/langos v1.0.0 // indirect
 	github.com/felixge/httpsnoop v1.0.3 // indirect
